@@ -88,18 +88,18 @@ export function Navbar() {
               )}
             >
               <Image
-                src="https://gmnnifngyjjksorcziow.supabase.co/storage/v1/object/public/images/website-images/79abc1c0-afd2-4cfe-bfe3-c8ce0b20faf5-chatgpt-image-aug-31-2026-11-56-21-pm.png"
+                src="https://gmnnifngyjjksorcziow.supabase.co/storage/v1/object/public/images/website-images/08b454d2-5e62-4605-aee2-8ae096e4718f-chatgpt-image-sep-3-2026-02-41-24-am.webp"
                 alt="CHP Himalayan Paradise"
-                width={170}
-                height={50}
-                className="h-9 sm:h-10 w-auto object-contain"
+                width={184}
+                height={54}
+                className="h-10 sm:h-11 w-auto object-contain"
                 priority
               />
             </div>
           </Link>
 
           {/* ── Desktop links (centred) ── */}
-          <ul className="hidden lg:flex items-center gap-0.5 mx-auto">
+          <ul className="hidden lg:flex items-center gap-0.5 ml-12 mr-auto">
             {navLinks.map((link) => {
               const isActive = pathname === link.href;
               return (
