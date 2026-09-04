@@ -12,9 +12,9 @@ export function AboutHero() {
   const contentOpacity = useTransform(scrollYProgress, [0, 0.7], [1, 0]);
 
   return (
-    <section ref={sectionRef} className="relative h-[52svh] min-h-[360px] overflow-hidden bg-black lg:h-auto lg:min-h-0 lg:aspect-video">
-      <motion.div className="absolute -inset-y-[14%] inset-x-0" style={{ y: imageY }}>
-        <Image src="https://gmnnifngyjjksorcziow.supabase.co/storage/v1/object/public/images/website-images/7d6cc64f-0d44-4f83-97a9-0409474b5ac1-chatgpt-image-sep-3-2026-02-34-27-am.webp" alt="CHP Himalayan Paradise" fill priority sizes="100vw" className="object-cover object-center" />
+    <section ref={sectionRef} className="relative h-[48svh] min-h-[340px] overflow-hidden bg-black lg:h-auto lg:min-h-0 lg:aspect-[16/8.5]">
+      <motion.div className="absolute -inset-y-[16%] inset-x-0" style={{ y: imageY }}>
+        <Image src="https://gmnnifngyjjksorcziow.supabase.co/storage/v1/object/public/images/holiday-camps/eb8047c4-9825-4fa1-83b4-84beb674b812-abt.webp" alt="CHP Himalayan Paradise" fill priority sizes="100vw" className="object-cover object-center" />
       </motion.div>
       <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/15 to-black/55" />
       <motion.div style={{ y: contentY, opacity: contentOpacity }} className="absolute inset-0 flex flex-col items-center justify-center px-4 text-center sm:px-6">
