@@ -32,13 +32,12 @@ export function PurposeDrivenSpace() {
   return (
     <section
       id="purpose-driven-space"
-      className="py-20 lg:py-28 bg-white scroll-mt-20"
+      className="py-14 lg:py-20 bg-white scroll-mt-20"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
-          eyebrow="Beyond Travel"
           title="Purpose Driven Space"
-          subtitle="CHP is more than a destination—it is a community built around meaningful initiatives. From serving abandoned cows and promoting spiritual well-being to empowering underprivileged students, every space at CHP reflects a deeper purpose that creates lasting social impact."
+          subtitle="Purposeful Spaces. Meaningful Experiences. Meaningful Contributions."
         />
 
         <StaggerContainer
