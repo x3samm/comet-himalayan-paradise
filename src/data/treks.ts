@@ -47,7 +47,7 @@ export const treks: Trek[] = [
     description:
       "A serene walk through towering pine and deodar forests where sunlight filters through ancient canopies. Perfect for nature lovers and families, this trail reveals Kumaon's biodiversity at its most accessible.",
     image:
-      "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&q=80&auto=format&fit=crop",
+      "https://gmnnifngyjjksorcziow.supabase.co/storage/v1/object/public/images/website-images/8f1f669f-d982-4c4f-9ad8-75042903195f-scaled-pine-forest-1.webp",
     category: "nature",
     isPopular: true,
   },
@@ -70,7 +70,7 @@ export const treks: Trek[] = [
     description:
       "The Kumaon Himalayas are a birder's paradise. This guided walk explores birding hotspots where you can spot the resplendent Himalayan Monal, Koklass Pheasant, and over 200 other species across forest and alpine zones.",
     image:
-      "https://images.unsplash.com/photo-1444464666168-49d633b86797?w=800&q=80&auto=format&fit=crop",
+      "https://gmnnifngyjjksorcziow.supabase.co/storage/v1/object/public/images/website-images/2c4f9283-5476-4a35-80cf-d3ddda2787ba-scaled-bird-watching-1.webp",
     category: "nature",
     isPopular: true,
   },
@@ -182,7 +182,7 @@ export const treks: Trek[] = [
     ],
     description:
       "Experience the thrill of cycling through Himalayan terrain on high-altitude routes with jaw-dropping views. Suitable for intermediate cyclists, the routes wind through forests, villages, and mountain passes.",
-    image: "https://gmnnifngyjjksorcziow.supabase.co/storage/v1/object/public/images/website-images/aadc0bc3-dfb1-448e-aace-a05fcd7df376-scaled-mountain-cycling.webp",
+    image: "https://gmnnifngyjjksorcziow.supabase.co/storage/v1/object/public/images/website-images/d50b361e-88d5-4d7e-8716-6f1ee6941dd6-scaled-himalayan-cycling-1.webp",
     category: "adventure",
     isPopular: true,
   },
