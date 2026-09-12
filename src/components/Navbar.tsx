@@ -73,7 +73,7 @@ export function Navbar() {
         )}
       >
         <nav
-          className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-6 flex items-center h-16"
+          className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-6 flex items-center h-16 min-[1440px]:justify-center"
           aria-label="Main navigation"
         >
           {/* ── Logo ── */}
@@ -103,9 +103,9 @@ export function Navbar() {
 
           {/* ── Desktop links (centred) ── */}
           <div
-            className="hidden min-[1280px]:flex flex-1 ml-6 items-center min-w-max"
+            className="hidden min-[1440px]:flex ml-6 items-center"
           >
-          <ul className="flex items-center gap-0.5 mr-auto">
+          <ul className="flex items-center gap-0.5">
             {navLinks.map((link) => {
               const isActive = pathname === link.href;
               return (
@@ -167,7 +167,7 @@ export function Navbar() {
           </div>
 
           {/* ── CTA buttons (right-pinned) ── */}
-          <div className="hidden min-[1280px]:flex items-center gap-2.5 shrink-0 ml-4">
+          <div className="hidden min-[1440px]:flex items-center gap-2.5 shrink-0 ml-4">
             <a
               href="tel:+919949994989"
               className={cn(
@@ -218,7 +218,7 @@ export function Navbar() {
           <button
             onClick={() => setMenuOpen((v) => !v)}
             className={cn(
-              "min-[1280px]:hidden inline-flex items-center gap-1.5 px-3 py-2 rounded-lg transition-colors ml-auto text-sm font-semibold",
+              "min-[1440px]:hidden inline-flex items-center gap-1.5 px-3 py-2 rounded-lg transition-colors ml-auto text-sm font-semibold",
               scrolled || !isHome
                 ? "text-slate-700 hover:bg-slate-100"
                 : "text-white hover:bg-white/10"
