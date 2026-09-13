@@ -23,11 +23,13 @@ const navLinks = [
 // Secondary links — shown in the "More" dropdown on desktop and a grouped section on mobile
 const moreLinks = [
   { href: "/growth-partner", label: "CHP Partnership" },
+  { href: "/promotions", label: "Promotions" },
   { href: "/gallery", label: "Gallery" },
   { href: "/second-home", label: "Second Home" },
   { href: "/business-investment", label: "Business & Investment" },
   { href: "/purpose-driven-space", label: "Purpose Driven Space" },
   { href: "/chp-enclave", label: "CHP Enclave" },
+  { name: "Business Proposals", href: "/business-proposals" },
 ];
 
 export function Navbar() {
