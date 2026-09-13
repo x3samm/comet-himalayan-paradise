@@ -112,6 +112,15 @@ export function CHPFacilities() {
               </StaggerItem>
             ))}
           </StaggerContainer>
+          <div className="mt-8 text-center">
+            <Link
+              href="/facilities#chp-dream-spaces-heading"
+              className="inline-flex items-center gap-2 border border-green-900/20 text-green-900 font-semibold text-sm px-6 py-3 rounded-full hover:bg-green-900/5 transition-colors"
+            >
+              Explore Dream Spaces
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
         </div>
 
         {/* Row 2 — Facilities */}

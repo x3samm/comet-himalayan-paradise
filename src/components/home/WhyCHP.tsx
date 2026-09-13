@@ -103,7 +103,7 @@ export function WhyCHP() {
                 <motion.div
                   whileHover={{ y: -4 }}
                   transition={{ duration: 0.2 }}
-                  className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow duration-300 h-full"
+                  className="rounded-2xl border border-stone-200/80 bg-white/75 p-6 shadow-sm hover:shadow-md transition-shadow duration-300 h-full"
                 >
                   <div
                     className={`w-11 h-11 rounded-xl flex items-center justify-center mb-4 ${f.color}`}
