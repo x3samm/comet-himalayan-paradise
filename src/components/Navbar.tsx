@@ -26,7 +26,7 @@ const moreLinks = [
   { href: "/promotions", label: "Promotions" },
   { href: "/gallery", label: "Gallery" },
   { href: "/second-home", label: "Second Home" },
-  { href: "/business-investment", label: "Business & Investment" },
+  { href: "/business-investment", label: "Investment Opportunities" },
   { href: "/purpose-driven-space", label: "Purpose Driven Space" },
   { href: "/health-retreat-program", label: "Health Retreat Program" },
   { href: "/chp-enclave", label: "CHP Enclave" },

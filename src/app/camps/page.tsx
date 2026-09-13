@@ -150,15 +150,20 @@ export default function CampsPage() {
             Immersive camp programs combining adventure, wellness, culture, and
             nature. From a weekend to 45 days — at your pace.
           </p>
+          </div>
+      </section>
+          <div className="bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
           <Link
             href="/contact"
-            className="mt-8 inline-flex items-center gap-2 bg-green-900 hover:bg-green-800 text-white font-semibold px-8 py-4 rounded-full transition-all hover:-translate-y-0.5 hover:shadow-xl hover:shadow-green-900/30"
+            className="inline-flex items-center gap-2 bg-green-900 hover:bg-green-800 text-white font-semibold px-8 py-4 rounded-full transition-all hover:-translate-y-0.5 hover:shadow-xl hover:shadow-green-900/30"
           >
-            Book a Camp
+            Book Your Holiday Camp
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
-      </section>
+      </div>
+        
 
       {/* Overview */}
       <section className="py-20 bg-white">
@@ -173,7 +178,7 @@ export default function CampsPage() {
               </h2>
               <p className="text-slate-600 leading-relaxed mb-6">
                 CHP Holiday Camps are designed to give you the full Himalayan
-                experience without any of the complexity. We take care of
+                experience hassle free. We take care of
                 everything — from accommodation and meals to guided activities,
                 permits, and logistics — so you can simply arrive, breathe, and
                 explore.
